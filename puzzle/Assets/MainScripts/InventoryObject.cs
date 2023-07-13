@@ -31,8 +31,10 @@ public class InventoryObject : ScriptableObject
 public class InventorySlot
 {
     public itemObject item;
+    public string nameItem;
     public InventorySlot(itemObject _item) {
         item = _item;
+        nameItem = _item.nameItem;
     }
 
 }

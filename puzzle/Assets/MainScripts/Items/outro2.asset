@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: edc9c0c38126da44ca60d9f5b72ebabe, type: 3}
-  m_Name: outro
+  m_Name: outro2
   m_EditorClassIdentifier: 
-  PreFab: {fileID: 8642969106066026908, guid: 0c6d3e7758c20da419c150dbcb4234e3, type: 3}
-  id: 2
-  nameItem: aleatorio
-  description: asdasd
+  PreFab: {fileID: 5070917082547227380, guid: 51d2904750879bd4b8529d4759413bb4, type: 3}
+  id: 3
+  nameItem: fafasfasf
+  description: afafafgag
