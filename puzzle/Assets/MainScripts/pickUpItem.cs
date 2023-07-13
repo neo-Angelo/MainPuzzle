@@ -5,9 +5,9 @@ using UnityEngine;
 public class pickUpItem : MonoBehaviour
 {
     public GameObject ItemText;
-    public Item item;
-       
-       void Start()
+    public itemObject item;
+
+    void Start()
     {
         ItemText.SetActive(false);
     }
@@ -15,15 +15,14 @@ public class pickUpItem : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         
-
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.CompareTag("Player"))
         {
             ItemText.SetActive(true);
             if (Input.GetKey(KeyCode.E)) {
                 
                 ItemText.SetActive(false);
                 // Call a method in the player script to handle the item pickup
-                other.GetComponent<ControllerPlayer>().PickUpItem(gameObject);
+                other.GetComponent<ControllerPlayer>().PickUpItem(item);
 
                 // Remove the item from the scene
                 Destroy(gameObject);

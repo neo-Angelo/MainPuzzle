@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
+    public itemObject item;
+
     public string nameItem;
-    public int id;
-    public Sprite icon;
+    /* public int id;
+    public Sprite icon; */
     // Start is called before the first frame update
     void Start()
     {

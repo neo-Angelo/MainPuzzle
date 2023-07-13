@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class ControllerPlayer : MonoBehaviour
 {
-    public inventoryManager inventoryManager; // Reference to the inventory manager
+    public InventoryObject Inventory;
 
-    public void PickUpItem(GameObject item)
+
+    public void PickUpItem(itemObject _item)
     {
-        //Debug.Log("dentro do player : ");
-        // Get the Item component from the picked-up item GameObject
-        //Item itemComponent = item.GetComponent<Item>();
+        if (_item) {
+            Inventory.addItem(_item);
+        }
+    }
 
-        // Add the item to the player's inventory
-        //inventoryManager.AddItem(itemComponent);
+    private void OnApplicationQuit()
+    {
+        Inventory.Container.Clear();
     }
 }
