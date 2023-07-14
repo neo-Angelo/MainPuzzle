@@ -16,6 +16,6 @@ public class ControllerPlayer : MonoBehaviour
 
     private void OnApplicationQuit()
     {
-        Inventory.Container.Clear();
+        Inventory.Container.Items.Clear();
     }
 }

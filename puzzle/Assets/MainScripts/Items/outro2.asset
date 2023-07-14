@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edc9c0c38126da44ca60d9f5b72ebabe, type: 3}
   m_Name: outro2
   m_EditorClassIdentifier: 
-  PreFab: {fileID: 5070917082547227380, guid: 51d2904750879bd4b8529d4759413bb4, type: 3}
+  uiDisplay: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
   id: 3
-  nameItem: fafasfasf
+  nameItem: CHAVE
   description: afafafgag

@@ -16,7 +16,7 @@ public class inventoryManager : MonoBehaviour
         
     }
 
-    public void AddItem(Item item){
+    public void AddItem(GroundItem item){
 
 
     }

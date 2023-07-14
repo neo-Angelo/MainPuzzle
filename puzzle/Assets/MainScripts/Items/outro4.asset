@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edc9c0c38126da44ca60d9f5b72ebabe, type: 3}
   m_Name: outro4
   m_EditorClassIdentifier: 
-  PreFab: {fileID: 864085906391002304, guid: b0fe9dea0d12dbd4196831643266fa69, type: 3}
+  uiDisplay: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   id: 5
-  nameItem: nhhyn
+  nameItem: mascara
   description: xzczxczxc

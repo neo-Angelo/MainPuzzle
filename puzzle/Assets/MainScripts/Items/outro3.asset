@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edc9c0c38126da44ca60d9f5b72ebabe, type: 3}
   m_Name: outro3
   m_EditorClassIdentifier: 
-  PreFab: {fileID: 3650778632656390648, guid: fb5b33815ef36de4f9eba3a7a41f2266, type: 3}
+  uiDisplay: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   id: 4
-  nameItem: rew
+  nameItem: casaco
   description: afafafgg

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class itemObject : ScriptableObject
 {
-    public GameObject PreFab;
+    public Sprite uiDisplay;
     public int id;
     public string nameItem;
     [TextArea(15,20)]
