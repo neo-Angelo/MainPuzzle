@@ -8,6 +8,7 @@ using UnityEngine.Events;
 
 public class DisplayInventory : MonoBehaviour
 {
+    public GameObject descri;
     public GameObject inventoryPrefab;
     public InventoryObject inventory;
     public int X_START;
@@ -87,9 +88,14 @@ public class DisplayInventory : MonoBehaviour
 
     public void OnItemClick(int index)
     {
+        
+        
         string itemoloko = inventory.Container.Items[index].item.description;
         string itemName = inventory.Container.Items[index].nameItem;
         Debug.Log("Clicked Item: " + itemoloko);
+        
+        descri.GetComponent<TextMeshProUGUI>().text = itemoloko;
+
     }
 
 
