@@ -7,7 +7,7 @@ public class characterMove : MonoBehaviour
 {
     public CharacterController controller;
 
-    public float speed = 12f;
+    public float speed = 6f;
     public float gravity = -9.81f;
 
     Vector3 velocity;

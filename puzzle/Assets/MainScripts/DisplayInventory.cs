@@ -9,6 +9,8 @@ using UnityEngine.Events;
 public class DisplayInventory : MonoBehaviour
 {
     public GameObject descri;
+    public GameObject fotin;
+    public GameObject nome;
     public GameObject inventoryPrefab;
     public InventoryObject inventory;
     public int X_START;
@@ -90,11 +92,13 @@ public class DisplayInventory : MonoBehaviour
     {
         
         
-        string itemoloko = inventory.Container.Items[index].item.description;
+        string itemDescricao = inventory.Container.Items[index].item.description;
         string itemName = inventory.Container.Items[index].nameItem;
-        Debug.Log("Clicked Item: " + itemoloko);
+        Debug.Log("Clicked Item: " + itemDescricao);
         
-        descri.GetComponent<TextMeshProUGUI>().text = itemoloko;
+        descri.GetComponent<TextMeshProUGUI>().text = itemDescricao;
+        nome.GetComponent<TextMeshProUGUI>().text = itemName;
+        fotin.GetComponent<Image>().sprite = inventory.Container.Items[index].uiDisplay;
 
     }
 
